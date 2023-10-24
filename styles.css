@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* this is for the title image */
+header img{
+    height: 20vh;
+    width: 80vw;
+    display: block; /* Remove any default inline alignment */
+    margin: 0 auto; 
+}
+
+/* Development  of the nav bar */
+
+
+/* Style the header and its contents */
+ nav {
+    background-color: black;
+    text-align: center;
+    padding: 2px 0;
+    margin : 1% 2%;
+    border-radius: 10px
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none;
+    height: min-co;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Change the appearance of links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the image in the main */
+main .promo-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  main .promo-container img {
+    width: 96%;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 1% 2%; /* Add a 2% margin to both left and right sides */
+  }
+  
+  main .promo-container p {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for text */
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  
+
+  /* Styling the menu cart */
+
+.items{
+    margin: 1% 2%;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    overflow: auto;
+}
+.items .card img{
+    height: 50vh;
+    width: 80%;
+}
+
+.card{
+    padding: 20px;
+    background-color: gray;
+}
+
+
+/* Style the footer */
+
+
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    margin: 1% 2%;
+    border-radius: 10px;
+   
+  }
+  
+  .copyright {
+    font-size: 14px; 
+  }
+  
+  /* Style links within the footer */
+  footer a {
+    color: #f1f1f1; 
+    text-decoration: none;
+    margin: 0 10px; 
+  }
+  
+  footer a:hover {
+    text-decoration: underline; 
+  }
+  
+
+
+  
+  
+  
+
